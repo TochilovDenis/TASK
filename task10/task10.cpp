@@ -1,4 +1,4 @@
-#include <fstream>
+ï»¿#include <fstream>
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -31,7 +31,7 @@ void writeStringsToFile(string filename, int num_strings, int string_length) {
     ofstream file(filename);
 
     if (!file) {
-        cerr << "Íåâîçìîæíî îòêðûòü ôàéë";
+        cerr << "ÐÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ÑŒ Ñ„Ð°Ð¹Ð»";
         return;
     }
 
