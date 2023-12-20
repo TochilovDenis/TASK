@@ -57,69 +57,8 @@ int main() {
 				<< "\nВведите заново!\n";
 		}
 	} while (choice != "quit");
+
 	cout << "Программа завершена.";
 	
 	return 0;
 }
-
-//#include <iostream>
-//#include <string>
-//
-//void printVariable(int var) {
-//	for (int i = 0; i < 5; i++) {
-//		std::cout << var << std::endl;
-//	}
-//}
-//
-//void printVariable(double var) {
-//	for (int i = 0; i < 5; i++) {
-//		std::cout << var << std::endl;
-//	}
-//}
-//
-//void printVariable(char var) {
-//	for (int i = 0; i < 5; i++) {
-//		std::cout << var << std::endl;
-//	}
-//}
-//
-//void printVariable(std::string var) {
-//	for (int i = 0; i < 5; i++) {
-//		std::cout << var << std::endl;
-//	}
-//}
-//
-//void printVariable(long var) {
-//	for (int i = 0; i < 5; i++) {
-//		std::cout << var << std::endl;
-//	}
-//}
-//
-//int main() {
-//	int intVar;
-//	std::cout << "Введите число int: ";
-//	std::cin >> intVar;
-//	printVariable(intVar);
-//
-//	double doubleVar;
-//	std::cout << "Введите число double: ";
-//	std::cin >> doubleVar;
-//	printVariable(doubleVar);
-//
-//	char charVar;
-//	std::cout << "Введите символ: ";
-//	std::cin >> charVar;
-//	printVariable(charVar);
-//
-//	std::string stringVar;
-//	std::cout << "Введите строку: ";
-//	std::cin >> stringVar;
-//	printVariable(stringVar);
-//
-//	long longVar;
-//	std::cout << "Введите число long: ";
-//	std::cin >> longVar;
-//	printVariable(longVar);
-//
-//	return 0;
-//}
